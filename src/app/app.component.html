@@ -1,0 +1,11 @@
+<body class="center">
+  <div>
+    <h1>🍪 Cookie Clicker 🍪</h1>
+    <p class="center">Cookies: {{ cookie_counter }}</p>
+    <p class="center">{{ message }}</p>
+    <div class="buttons-box center">
+      <button mat-mini-fab (click)="onClick()">+{{ cookie_increment }}</button>
+      <button mat-mini-fab (click)="onReset()">Reset</button>
+    </div>
+  </div>
+</body>

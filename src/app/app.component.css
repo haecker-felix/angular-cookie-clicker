@@ -1,0 +1,23 @@
+body{
+  background-color: grey;
+  border-radius: 20px;
+  border: 3px solid black;
+  padding: 20px;
+}
+
+h1 {
+  font-family: monospace;
+}
+
+p {
+  font-family: Verdana, sans-serif;
+}
+
+.buttons-box button{
+  margin: 18px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
